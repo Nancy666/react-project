@@ -1,0 +1,50 @@
+.header{
+    background:#fff;
+    .header-top{
+        height: 60px;
+        line-height: 60px;
+        text-align: right;
+        border-bottom: 1px solid #dedede;
+        a{
+            padding:20px;
+        }
+    }
+    .breadcrumb{
+        height: 40px;
+        line-height: 40px;
+        padding:0 20px;
+        .bread-title{
+            text-align:center;
+            &:after{
+                position: absolute;
+                content:'';
+                left:97px;
+                top:40px;
+                border-top:9px solid #fff;
+                border-left:12px solid transparent;
+                border-right: 12px solid transparent;
+                z-index: 2;
+            }
+        }
+        .weather{
+            display: inline-block;
+            height:100%;
+            text-align: right;
+            vertical-align:middle;
+            .date{
+                padding:0 20px;
+            }
+            .dayPic{
+                width:30px;
+                img{
+                    margin:0 10px;
+                    width:30px;
+                    height:auto;
+                }
+            }
+        }  
+    }
+}
+.bg{
+    background-color:#a6d2fc;
+}
