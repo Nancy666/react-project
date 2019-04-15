@@ -5,10 +5,10 @@ export default class Etable extends Component {
     tableInit = () => {
         return <Table
             bordered
-            columns={columns}
+            // columns={columns}
             dataSource={this.state.list}
             pagination={this.state.pagination}
-            rowSelection={rowSelection}   //表格行是否可选择
+            // rowSelection={rowSelection}   //表格行是否可选择
             onRow={(record, index) => {
                 return {
                     onClick: () => {
